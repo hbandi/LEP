@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--
+    <bean id="consumerActivity" class="com.hb.engine.activity.ConsumerActivity" scope="prototype">
+        <property name="metaDataEventHandler" ref="metaDataEventHandler"/>
+    </bean>
+
+    <bean id="filterActivity" class="com.hb.engine.activity.FilterActivity" scope="prototype"/>
+    <bean id="eventMetaDataFilterActivity" class="com.hb.engine.activity.EventMetaDataFilterActivity"
+          scope="prototype"/>
+    <bean id="applyCriteriaActivity" class="com.hb.engine.activity.ApplyCriteriaActivity" scope="prototype"/>
+    <bean id="postProcessorActivity" class="com.hb.engine.activity.PostProcessorActivity" scope="prototype"/>
+
+    <bean id="fishNetActivityProcessFlow" class="com.hb.engine.EventValaActivityProcessFlowow" scope="prototype">
+        <property name="activities">
+            <list>
+                <ref bean="consumerActivity"/>
+                <ref bean="eventMetaDataFilterActivity"/>
+                <ref bean="filterActivity"/>
+                <ref bean="applyCriteriaActivity"/>
+                <ref bean="postProcessorActivity"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="metaDataEventHandler" class="com.hb.engine.handlers.MetaDataEventHandler"/>
+
+-->
+
+</beans>
