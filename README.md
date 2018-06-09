@@ -5,6 +5,9 @@ LEP means Lightning event processor, which is nothing but complex event processi
 While designing such complex systems, the one should use better patterns to maintain scalability, availability and accuracy.
 Based on our experiences with CEP engines we want to design it simple.
 Below all are separate services can be used with no complete system dependency.
+
+![Screenshot](image.png)
+
 1)	Filter
 Every time when your system may receive millions of events, but you are not bother about all those events, you need only few events which your campaigns or use cases are configured or running. So you need to filter those events.
 How to do that, we can do with a registered query with that event type. And more over every CEP engine has its own query language to filter those events.
