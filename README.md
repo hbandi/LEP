@@ -1,7 +1,7 @@
 *********** This is under development,we may change design or flows based on our future roadmap *********************
 
-                                  Lightweight Event Processor
-LEP means Lightweight event processor, which is nothing but complex event processing engine.LEP is basically designed to process millions of events and do farming with those events like counting/aggregation/reduction/merging/processing events on real-time basis.
+                                  Lightning Event Processor
+LEP means Lightning event processor, which is nothing but complex event processing engine.LEP is basically designed to process millions of events and do farming with those events like counting/aggregation/reduction/merging/processing events on real-time basis.
 While designing such complex systems, the one should use better patterns to maintain scalability, availability and accuracy.
 Based on our experiences with CEP engines we want to design it simple.
 Below all are separate services can be used with no complete system dependency.
