@@ -1,4 +1,3 @@
-*********** This is under development,we may change design or flows based on our future roadmap *********************
 
                                   Lightning Event Processor
 LEP means Lightning event processor, which is nothing but complex event processing engine.LEP is basically designed to process millions of events and do farming with those events like counting/aggregation/reduction/merging/processing events on real-time basis.
@@ -8,7 +7,7 @@ Below all are separate services can be used with no complete system dependency.
 
 ![Screenshot](image.png)
 
-1)	Filter
+**Filtering**
 Every time when your system may receive millions of events, but you are not bother about all those events, you need only few events which your campaigns or use cases are configured or running. So you need to filter those events.
 How to do that, we can do with a registered query with that event type. And more over every CEP engine has its own query language to filter those events.
 
@@ -22,7 +21,7 @@ AND (! ({11L, 12L}.contains All (itemIds))))
 For every customer who buys items from India/USA and order amount should >10000 and transaction time between some range and non-applicable items for this offer.
 	Customers who satisfy this criteria, we filter them.
 
-2)	Managing Contexts
+**Managing Contexts**
 After filtering events we have to store or associate them to particular context for future usage, aggregations or calculations. This needs to be maintain in-memory not in the data bases.But these window configurations we could maintain in DB, since our instances are not always up and running.
 
 Example (Refer Spel from the 1.0)
