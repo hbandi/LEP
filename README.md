@@ -1,5 +1,6 @@
 
-                                  Lightning Event Processor
+**Lightning Event Processor**
+
 LEP means Lightning event processor, which is nothing but complex event processing engine.LEP is basically designed to process millions of events and do farming with those events like counting/aggregation/reduction/merging/processing events on real-time basis.
 While designing such complex systems, the one should use better patterns to maintain scalability, availability and accuracy.
 Based on our experiences with CEP engines we want to design it simple.
